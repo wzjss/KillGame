@@ -58,12 +58,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -75,11 +69,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Button.cs" />
     <Compile Include="Assets\Maneager\GameMgr.cs" />
     <Compile Include="Assets\Maneager\SceneMgr.cs" />
     <Compile Include="Assets\Maneager\SkillMgr.cs" />
     <Compile Include="Assets\Maneager\StoreMgr.cs" />
+    <Compile Include="Assets\Maneager\TaskMgr.cs" />
     <Compile Include="Assets\Maneager\UIMgr.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
